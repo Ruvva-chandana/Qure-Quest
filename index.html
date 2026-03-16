@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe 💊 vs 💉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>💊 Tic Tac Toe 💉</h1>
+    <div class="board" id="board"></div>
+    <button id="restartBtn">Take Another Dose 😄</button>
+  </div>
+
+  <!-- Popup -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h2 id="winnerText"></h2>
+      <p id="quoteText"></p>
+      <button id="closePopup">OK</button>
+    </div>
+  </div>
+
+  <!-- Sounds -->
+  <audio id="moveSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_7baf6de7b3.mp3"></audio>
+  <audio id="winSound" src="https://cdn.pixabay.com/audio/2022/03/10/audio_1e1cfb87a3.mp3"></audio>
+  <audio id="popupSound" src="https://cdn.pixabay.com/audio/2022/03/22/audio_3f23b0f0c7.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
